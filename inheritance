@@ -1,0 +1,121 @@
+public class Inheritance {
+    // 1. single inheritance
+  /*  public static void main(String args[])
+    {
+        Fish shark = new Fish();
+        shark.eat();
+    }
+
+}
+//Base class
+class Animal
+{
+    String color;
+    void eat()
+    {
+        System.out.println(" It Eats food");
+    }
+    void breath()
+    {
+        System.out.println("breaths");
+    }
+
+}
+//Derived class
+class Fish extends Animal
+{
+    int fins;
+    void swim()
+    {
+        System.out.println("Swims in water");
+    }
+
+
+
+// 2. Multilevel inheritance
+    public static void main(String args[])
+    {
+        dog tomy = new dog();
+        tomy.eat();
+        tomy.legs = 4;
+        System.out.println(tomy.legs);
+    }
+
+}
+//Base class
+class Animal
+{
+    String color;
+    void eat()
+    {
+        System.out.println("It Eats food");
+    }
+    void breath()
+    {
+        System.out.println("breaths");
+    }
+}
+//Derive class
+class mammels extends Animal
+{
+    int legs;
+}
+//Derived class
+class dog extends mammels
+{
+   String breed;
+}
+
+
+
+    // 3.Hierarchial inheritance
+    public static void main(String args[])
+    {
+        mammels dog = new mammels();
+        dog.eat();
+        fish shark = new fish();
+        shark.swim();
+        shark.breath();
+
+    }
+
+}
+//Base class
+class Animal
+{
+    String color;
+    void eat()
+    {
+        System.out.println("It Eats food");
+    }
+    void breath()
+    {
+        System.out.println("breaths");
+    }
+}
+//Derive class
+class mammels extends Animal
+{
+    void walk()
+    {
+        System.out.println("It walks");
+    }
+
+}
+//Derived class
+class fish extends Animal
+{
+    void swim()
+    {
+        System.out.println("It swims");
+    }
+}
+class bird extends Animal
+{
+    void fly()
+    {
+        System.out.println("It flys");
+    }
+}
+*/
+
